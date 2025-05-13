@@ -15,6 +15,8 @@ body {
 header {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-image: url("/assets/imgs/desktop/image-header.jpg");
   background-size: cover; /* برای اینکه تصویر کل عنصر رو بپوشونه */
   background-position: center; /* تصویر رو وسط قرار بده */
@@ -57,4 +59,29 @@ header {
   font-weight: 700;
   padding: 12px 24px;
   border-radius: 20px;
+}
+
+.navbar .nav-items li:nth-last-child(1) a:hover {
+  background-color: hsl(0, 100%, 100%, 0.2);
+  color: hsl(0, 100%, 100%);
+}
+
+.main-header {
+  margin: 70px auto;
+  text-align: center;
+}
+
+.main-header p {
+  color: hsl(0, 100%, 100%);
+  font-size: 38px;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.main-header img {
+  /* width: 25px; */
+  height: 80px;
+  margin-top: 60px;
 }
