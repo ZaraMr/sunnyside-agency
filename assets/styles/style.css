@@ -224,3 +224,69 @@ a {
 .section__1 .item--2 .context a:hover::after {
   background-color: hsl(7, 99%, 70%);
 }
+
+.section__2 {
+  display: flex;
+  position: relative;
+}
+
+.section__2 .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 520px;
+  /* padding-top: 450px; */
+
+  /* position: absolute; */
+}
+
+.section__2 .item .context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  width: 45%;
+  text-align: center;
+}
+
+.section__2 .item .context h3 {
+  font-size: 22px;
+  font-weight: 950;
+  font-family: "Fraunces", serif;
+  margin-bottom: 25px;
+  /* margin-top: 290px; */
+}
+
+.section__2 .item .context p {
+  font-size: 14px;
+  /* color: hsl(168, 24%, 36%); */
+  font-weight: 500;
+  line-height: 25px;
+  /* padding: 25px 185px 0; */
+}
+
+.section__2 .item--1 .context p,
+.section__2 .item--1 .context h3 {
+  color: hsl(167, 40%, 24%);
+}
+
+.section__2 .item--2 .context p,
+.section__2 .item--2 .context h3 {
+  color: hsl(198, 62%, 26%);
+}
+
+.section__2 .item--1 {
+  flex: 1;
+  background-image: url("/assets/imgs/desktop/image-graphic-design.jpg");
+}
+
+.section__2 .item--2 {
+  flex: 1;
+  background-image: url("/assets/imgs/desktop/image-photography.jpg");
+}
