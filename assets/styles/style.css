@@ -23,6 +23,10 @@ header {
   background-repeat: no-repeat;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -84,4 +88,139 @@ header {
   /* width: 25px; */
   height: 80px;
   margin-top: 60px;
+}
+
+.section__1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.section__1 img {
+  /* flex: 1; */
+  width: 50%;
+  height: 500px;
+}
+
+.section__1 .item {
+  display: flex;
+}
+
+.section__1 .item--1 {
+  justify-content: space-between;
+}
+
+.section__1 .item .context {
+  /* flex: 1; */
+  width: 33%;
+  /* margin-top: 150px; */
+  margin: 110px auto 0;
+  padding: 35px;
+}
+
+.section__1 .item .context h2 {
+  font-family: "Fraunces", serif;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.section__1 .item .context p {
+  font-size: 15px;
+  line-height: 25px;
+  color: hsl(210, 4%, 67%);
+  font-weight: 550;
+  margin: 30px 0;
+}
+
+/* .section__1 .item .context a {
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: hsl(212, 27%, 19%);
+  font-weight: 950;
+  z-index: 2;
+  position: relative;
+}
+
+.section__1 .item--1 .context a::after {
+  content: "";
+  position: absolute;
+  background-color: hsl(51, 90%, 79%);
+  border-radius: 10px;
+  bottom: -3px;
+  left: -5px;
+  width: 110%;
+  height: 10px;
+  z-index: -1;
+  transition: background-color 0.3s ease;
+}
+
+.section__1 .item--1 .context a::after:hover {
+  background-color: hsl(51, 100%, 49%);
+}
+
+.section__1 .item--1 .context a:hover::after {
+  background-color: hsl(51, 100%, 49%);
+}
+
+.section__1 .item--2 .context a::after {
+  content: "";
+  position: absolute;
+  background-color: hsl(7, 95%, 84%);
+  border-radius: 10px;
+  bottom: -3px;
+  left: -5px;
+  width: 110%;
+  height: 10px;
+  z-index: -1;
+  transition: background-color 0.3s ease;
+}
+
+.section__1 .item--2 .context a:hover::after {
+  background-color: hsl(7, 99%, 70%);
+} */
+
+/* commen properties for all links */
+.section__1 .item--1 .context a,
+.section__1 .item--2 .context a {
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: hsl(212, 27%, 19%);
+  font-weight: 950;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+}
+
+.section__1 .item--1 .context a::after,
+.section__1 .item--2 .context a::after {
+  content: "";
+  position: absolute;
+  border-radius: 10px;
+  bottom: -3px;
+  left: -5px;
+  width: 110%;
+  height: 10px;
+  z-index: -1;
+  transition: background-color 0.3s ease;
+}
+
+/* defualt color for each link */
+.section__1 .item--1 .context a::after {
+  background-color: hsl(51, 90%, 79%);
+}
+
+.section__1 .item--2 .context a::after {
+  background-color: hsl(7, 95%, 84%);
+}
+
+/* color in hover state */
+.section__1 .item--1 .context a:hover::after {
+  background-color: hsl(51, 100%, 49%);
+}
+.section__1 .item--2 .context a:hover::after {
+  background-color: hsl(7, 99%, 70%);
 }
