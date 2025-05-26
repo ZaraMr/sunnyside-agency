@@ -290,3 +290,67 @@ a {
   flex: 1;
   background-image: url("/assets/imgs/desktop/image-photography.jpg");
 }
+
+.section__3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+  gap: 50px;
+  /* text-align: center; */
+}
+
+.section__3 h2 {
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: hsl(210, 4%, 67%);
+}
+
+.section__3 .client-section {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: center;
+  align-items: center;
+  /* align-items: center; */
+  gap: 50px;
+}
+
+.section__3 .client-section .item {
+  width: 28%;
+  /* display: inline; */
+  /* text-align: center; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__3 .client-section .item img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.section__3 .client-section .item p.client-comment {
+  margin: 70px 0;
+  /* font-size: 1px; */
+  font-weight: 600;
+  line-height: 26px;
+  color: hsl(213, 9%, 39%);
+}
+
+.section__3 .client-section .item h4 {
+  font-family: "Fraunces", serif;
+  /* font-size: 14px; */
+  margin-bottom: 10px;
+  /* font-weight: 900; */
+}
+
+.section__3 .client-section .item p.job-title {
+  font-size: 16px;
+  color: hsl(210, 4%, 67%);
+  font-weight: 500;
+}
