@@ -354,3 +354,75 @@ a {
   color: hsl(210, 4%, 67%);
   font-weight: 500;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(167, 68%, 75%);
+  justify-content: center;
+  align-items: center;
+}
+
+footer .gallery {
+  display: flex;
+}
+
+footer .gallery img {
+  width: 25%;
+  /* height: 25%; */
+}
+
+footer .main-footer {
+  /* display: flex; */
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer .main-footer .footer-logo {
+  /* stroke
+  : red; */
+  /* font-size: 24px;
+  font-weight: 800; */
+
+  filter: brightness(0) saturate(100%) invert(25%) sepia(59%) saturate(423%)
+    hue-rotate(116deg) brightness(93%) contrast(85%);
+}
+
+footer .main-footer .footer-nav {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  margin: 30px 0 60px;
+}
+
+footer .footer-nav li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(168, 37%, 38%);
+}
+
+footer .contact {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+footer .footer-nav li a:hover,
+footer .contact a:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7478%)
+    hue-rotate(83deg) brightness(101%) contrast(96%);
+}
+
+footer .attribution {
+  font-size: 14px;
+  text-align: center;
+  color: hsl(232, 10%, 55%);
+  margin-bottom: 5px;
+}
+
+footer .attribution a {
+  color: hsl(212, 27%, 19%);
+  font-weight: 600;
+  font-size: 12px;
+}
